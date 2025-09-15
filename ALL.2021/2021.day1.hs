@@ -43,8 +43,7 @@ convertMaybeToInt maybeInt = fromMaybe 0 maybeInt
     
 main :: IO ()
 main = do
-    putStrLn "\t\t2020 day1.1"
-    putStrLn "\t/ghc -package mtl xx.hs"
+    putStrLn "\t\t2021 day1.1"
 
     args <- getArgs
     case args of
