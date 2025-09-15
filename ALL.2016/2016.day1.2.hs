@@ -20,7 +20,7 @@ extractInt str =
 
 main :: IO ()
 main = do
-    putStrLn "\t\t2016 day1.1"
+    putStrLn "\t\t2016 day1.2"
     args <- getArgs
     case args of
         [filename] -> do
