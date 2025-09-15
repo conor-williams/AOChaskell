@@ -26,8 +26,8 @@ loopThrough (str:vv) tots cur = do
         let amt = extractInt str
         let amt2 = convertMaybeToInt amt
         let cur2 = cur + amt2
-	let ans = loopThrough vv tots cur2
-	ans
+        let ans = loopThrough vv tots cur2
+        ans
 
 extractInt :: String -> Maybe Int
 extractInt str =
@@ -41,7 +41,6 @@ convertMaybeToInt maybeInt = fromMaybe 0 maybeInt
 main :: IO ()
 main = do
     putStrLn "\t\t2022 day1.1"
-    putStrLn "\t/ghc -package mtl xx.hs"
 
     args <- getArgs
     case args of
