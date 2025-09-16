@@ -7,6 +7,7 @@ import Control.Monad (when)
 --import System.Exit (exitWith, ExitCode(..))
 import Control.Monad.Cont
 import Data.List
+import System.IO (hFlush, stdout)
 --import Data.IORef
 --import System.IO.Unsafe (unsafePerformIO)
 --import Control.Monad.ST
@@ -107,6 +108,7 @@ main :: IO ()
 main = do
     putStrLn "\t\t2018 day1.2"
     putStrLn "\tSLOW ~30mins"
+    hFlush stdout
 
     args <- getArgs
     case args of
