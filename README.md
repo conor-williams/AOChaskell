@@ -15,7 +15,8 @@ o ps and kill if you dont want to wait for one to finish (eg: 2018.day1.2 takes 
 
 -- my 2 cents:
    o Haskell doesn't have an ordinary for loop so there are a lot of recursive functions
-   o you have to pass positions (within a list) and totals as parameters to these recursive functions as globals variables (they are pseudo) are not really an option
+   o you have to pass positions (within a list) and totals as parameters to these recursive functions
+   o globals variables (they are pseudo) are not really an option
    o C style parameter types work well
    o Haskell doesn't seem to be super fast
 
